@@ -210,13 +210,13 @@ const Home = () => {
                       <ArrowRight className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
                     </a>
                   ) : (
-                    <a
-                      href="/services#snow-removal-services"
+                    <Link
+                      to="/services#snow-removal-services"
                       className="text-red-600 font-semibold hover:text-red-700 inline-flex items-center group"
                     >
                       Learn More
                       <ArrowRight className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
-                    </a>
+                    </Link>
                   )}
                 </div>
               </div>

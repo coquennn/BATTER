@@ -1,8 +1,22 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle, Leaf, Snowflake, Truck, Clock, Users } from 'lucide-react';
 
 const Services = () => {
+  useEffect(() => {
+    // Handle smooth scrolling to specific sections when page loads with hash
+    const hash = window.location.hash;
+    if (hash) {
+      setTimeout(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, []);
+
   const lawnServices = [
     {
       title: 'Seasonal Lawn Mowing',

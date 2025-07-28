@@ -36,27 +36,77 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/#top" className="text-gray-400 hover:text-white transition-colors duration-200">
+                <Link 
+                  to="/" 
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = '/';
+                    setTimeout(() => {
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }, 100);
+                  }}
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about#top" className="text-gray-400 hover:text-white transition-colors duration-200">
+                <Link 
+                  to="/about" 
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = '/about';
+                    setTimeout(() => {
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }, 100);
+                  }}
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/services#top" className="text-gray-400 hover:text-white transition-colors duration-200">
+                <Link 
+                  to="/services" 
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = '/services';
+                    setTimeout(() => {
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }, 100);
+                  }}
+                >
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="/blog#top" className="text-gray-400 hover:text-white transition-colors duration-200">
+                <Link 
+                  to="/blog" 
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = '/blog';
+                    setTimeout(() => {
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }, 100);
+                  }}
+                >
                   Blog
                 </Link>
               </li>
               <li>
-                <Link to="/contact#top" className="text-gray-400 hover:text-white transition-colors duration-200">
+                <Link 
+                  to="/contact" 
+                  className="text-gray-400 hover:text-white transition-colors duration-200"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.location.href = '/contact';
+                    setTimeout(() => {
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }, 100);
+                  }}
+                >
                   Contact
                 </Link>
               </li>

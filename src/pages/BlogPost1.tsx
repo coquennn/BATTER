@@ -52,7 +52,8 @@ const BlogPost1 = () => {
       {/* Article Content */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose prose-lg max-w-none">
+          <div className="prose prose-lg max-w-none mx-auto text-center">
+            <div className="text-left max-w-3xl mx-auto space-y-6">
             <p>
               Spring is the perfect time to set your lawn up for success throughout the growing season. After months of winter dormancy, your grass is ready to wake up and thrive with the right care and attention. 
             </p>
@@ -195,6 +196,7 @@ const BlogPost1 = () => {
             <p>
               <em>Ready to get started?</em> Take it one step at a time, and don't hesitate to reach out to professionals when you need expert guidance. Your lawn will thank you for the attention!
             </p>
+            </div>
           </div>
         </div>
       </section>
