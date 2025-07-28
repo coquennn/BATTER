@@ -161,7 +161,6 @@ const Services = () => {
                 key={index}
                 className="bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3 hover:scale-105 flex flex-col p-6 lg:p-8 min-h-[420px]"
               >
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                 <div className="mb-4">
                   <h3 className="text-xl lg:text-2xl font-bold text-gray-900 mb-3">
                     {service.title}
