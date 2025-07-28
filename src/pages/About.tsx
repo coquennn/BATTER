@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div>
               <img
-                src="/batteiger-family.png"
+                src="/batteigerfam.png"
                 alt="Batteiger family team"
                 className="rounded-2xl shadow-2xl w-full h-auto transform hover:scale-105 transition-transform duration-300"
               />
